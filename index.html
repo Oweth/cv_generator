@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Testing testing</title>
+</head>
+<body>
+    <p>Hello</p>
+    <section>
+        <p>The chatbot is on the bottom-right corner of the page. It will only be used for asking for the format 
+        of the CV - anything else related to the CV, it will fail. Why? Because I only trained it on the data 
+        from the CV docs given by Owethu. Check out www.chatbase.co to see the website I used to come up with 
+        this agent - did not even need to write a single line of code [except for this, of course].</p>
+        <br><br>
+        <p>Ask, for example, "What is necessary for my CV?".</p>
+    </section>
+</body>
+
+<script>
+    (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="aFRUyvj_xFCQuYpM7C6pI";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
+
+</html>
